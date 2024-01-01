@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Bike Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bikes.html">Bikes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Explore Our Latest Collection</h2>
+            <p>Find the perfect bike for your ride!</p>
+            <a href="bikes.html" class="btn">View Bikes</a>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2>Featured Bikes</h2>
+            <div class="bike-grid">
+                <!-- Display featured bikes -->
+                <div class="bike">
+                    <img src="images/yamaha crux 100cc black.webp" alt="Yamaha Crux 100cc Black">
+                    <h3>Yamaha Crux 100cc Black</h3>
+                    <p>Smooth and efficient ride for everyday commuting.</p>
+                    <p>Price: $1500</p>
+                    <a href="#" class="btn view-details" data-bike="Yamaha Crux 100cc Black">View Details</a>
+                </div>
+                <!-- Add more featured bikes -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bike Shop</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="bikeModal">
+        <div class="modal-content">
+            <span class="close" id="closeBtn">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent">
+                <!-- Bike details will be displayed here -->
+            </p>
+            <p>Contact us for more information or to make a purchase!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

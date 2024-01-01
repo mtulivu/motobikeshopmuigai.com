@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Bike Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bikes.html">Bikes</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bikes">
+        <div class="container">
+            <div class="bike">
+                <img src="images/ZT125-red1.webp" alt="ZT 125 Red">
+                <h2>ZT 125 Red</h2>
+                <p>A powerful and stylish 125cc bike in vibrant red color. Perfect for city rides and daily commuting.</p>
+                <p>Price: $2000</p>
+                <a href="#" class="btn view-details" data-bike="ZT 125 Red">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/ZT-125cc-Blue.jpg" alt="ZT 125 Blue">
+                <h2>ZT 125 Blue</h2>
+                <p>Experience the thrill of riding the ZT 125 Blue. Its sporty design and performance make it an excellent choice for enthusiasts.</p>
+                <p>Price: $2100</p>
+                <a href="#" class="btn view-details" data-bike="ZT 125 Blue">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/ybr125red.jpg" alt="YBR 125 Red">
+                <h2>YBR 125 Red</h2>
+                <p>The YBR 125 Red combines efficiency and style. Ideal for beginners and urban commuters.</p>
+                <p>Price: $1800</p>
+                <a href="#" class="btn view-details" data-bike="YBR 125 Red">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/ybr125gblue.jpg" alt="YBR 125 Blue">
+                <h2>YBR 125 Blue</h2>
+                <p>With its striking blue color and reliable performance, the YBR 125 Blue is a popular choice for daily rides.</p>
+                <p>Price: $1850</p>
+                <a href="#" class="btn view-details" data-bike="YBR 125 Blue">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/TVS_HLX_125_Flame_Red_rj3fzo.webp" alt="TVS HLX 125 Flame Red">
+                <h2>TVS HLX 125 Flame Red</h2>
+                <p>The TVS HLX 125 Flame Red offers a comfortable ride and impressive fuel efficiency, perfect for city commutes.</p>
+                <p>Price: $1900</p>
+                <a href="#" class="btn view-details" data-bike="TVS HLX 125 Flame Red">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/lifan lf150-17v.jpeg" alt="Lifan LF150-17V">
+                <h2>Lifan LF150-17V</h2>
+                <p>The Lifan LF150-17V offers a smooth ride with its powerful engine and comfortable design.</p>
+                <p>Price: $2500</p>
+                <a href="#" class="btn view-details" data-bike="Lifan LF150-17V">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/yamaha crux 100cc black.webp" alt="Yamaha Crux 100cc Black">
+                <h2>Yamaha Crux 100cc Black</h2>
+                <p>The Yamaha Crux 100cc Black provides a smooth and efficient ride, ideal for everyday commuting.</p>
+                <p>Price: $1500</p>
+                <a href="#" class="btn view-details" data-bike="Yamaha Crux 100cc Black">View Details</a>
+            </div>
+
+            <div class="bike">
+                <img src="images/Yamaha-Crux-Side-2012.webp" alt="Yamaha Crux Side 2012">
+                <h2>Yamaha Crux Side 2012</h2>
+                <p>The Yamaha Crux Side 2012 offers reliability and efficiency for your daily rides.</p>
+                <p>Price: $1600</p>
+                <a href="#" class="btn view-details" data-bike="Yamaha Crux Side 2012">View Details</a>
+            </div>
+            <!-- Add more bikes with similar structure -->
+        </div>
+    </section>
+
+    <div class="modal" id="bikeModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent">
+                <!-- Bike details will be displayed here -->
+            </p>
+            <p>Contact us for more information or to make a purchase!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bike Shop</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
