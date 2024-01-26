@@ -1,3 +1,5 @@
+// script.js
+
 document.addEventListener('DOMContentLoaded', function () {
     const viewDetailsButtons = document.querySelectorAll('.view-details');
     const modal = document.getElementById('bikeModal');
@@ -7,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     viewDetailsButtons.forEach(button => {
         button.addEventListener('click', function (event) {
-            event.preventDefault(); // Prevent the default behavior
+            event.preventDefault();
             const bikeName = this.dataset.bike;
             modalTitle.textContent = bikeName;
-            modalContent.innerHTML = getBikeDetails(bikeName); // Update modal content here
+            modalContent.innerHTML = getBikeDetails(bikeName);
             modal.style.display = 'block';
         });
     });
@@ -27,6 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function getBikeDetails(bikeName) {
         switch (bikeName) {
+            case 'Rockrider Bike':
+                return `
+                    <strong>Features:</strong> Lightweight, Durable<br>
+                    <strong>Color Options:</strong> Various<br>
+                    <strong>Price:</strong> $1200
+                    <!-- Add more details -->
+                `;
             case 'ZT 125 Red':
                 return `
                     <strong>Engine:</strong> 125cc<br>
@@ -82,18 +91,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     <strong>Color:</strong> Black<br>
                     <strong>Price:</strong> $1600
                     <!-- Add more details -->
-                `;
-            case 'Rockrider Bike':
-                return `
-                    <strong>Description:</strong> The Rockrider Bike is designed for both beginners and experienced riders, offering a perfect blend of performance and comfort. With its sleek design and advanced features, this bike is ideal for various terrains.<br>
-                    <strong>Features:</strong>
-                    <ul>
-                        <li>High-quality aluminum frame for durability</li>
-                        <li>Responsive disc brakes for reliable stopping power</li>
-                        <li>Smooth and efficient gear system for versatile riding</li>
-                        <!-- Add more features as needed -->
-                    </ul>
-                    <strong>Price:</strong> $XXXX
                 `;
             // Add details for more bikes as needed
             default:
