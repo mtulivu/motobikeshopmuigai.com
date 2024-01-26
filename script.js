@@ -84,6 +84,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     <!-- Add more details -->
                 `;
             // Add details for more bikes as needed
+            case 'Rockrider Bike':
+                return `
+                    <strong>Description:</strong> The Rockrider Bike is designed for both beginners and experienced riders, offering a perfect blend of performance and comfort. With its sleek design and advanced features, this bike is ideal for various terrains.<br>
+                    <strong>Features:</strong>
+                    <ul>
+                        <li>High-quality aluminum frame for durability</li>
+                        <li>Responsive disc brakes for reliable stopping power</li>
+                        <li>Smooth and efficient gear system for versatile riding</li>
+                        <!-- Add more features as needed -->
+                    </ul>
+                    <strong>Price:</strong> $XXXX
+                `;
             default:
                 return '';
         }
