@@ -95,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </ul>
                     <strong>Price:</strong> $XXXX
                 `;
+            // Add details for more bikes as needed
             default:
                 return '';
         }
