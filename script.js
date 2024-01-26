@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     <strong>Price:</strong> $1600
                     <!-- Add more details -->
                 `;
-            // Add details for more bikes as needed
             case 'Rockrider Bike':
                 return `
                     <strong>Description:</strong> The Rockrider Bike is designed for both beginners and experienced riders, offering a perfect blend of performance and comfort. With its sleek design and advanced features, this bike is ideal for various terrains.<br>
