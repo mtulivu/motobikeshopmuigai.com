@@ -9,12 +9,6 @@ body {
   color: #ffffff; /* White text color */
 }
 
-/* Dark mode styles */
-body.dark-mode {
-  background-color: #121212; /* Darker background color for dark mode */
-  color: #ffffff; /* White text color for dark mode */
-}
-
 /* Header styles */
 header {
   background-color: #333333; /* Darker header background color */
@@ -91,7 +85,6 @@ nav ul li a:hover {
   background-color: #333333; /* Darker bike card background color */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
 
 .bike img {
@@ -149,6 +142,15 @@ nav ul li a:hover {
   color: #ffffff; /* White text color */
 }
 
+/* Updated modal content styles */
+.modal-content strong {
+  color: #4CAF50; /* Green text color for strong elements */
+}
+
+.modal-content p {
+  color: #cccccc; /* Lighter text color for paragraphs */
+}
+
 .close {
   color: #aaaaaa;
   float: right;
@@ -163,145 +165,58 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-/* Index card specific styles */
-.index-card .btn {
-  width: 100%;
-  margin-top: 15px; /* Adjusted margin for better spacing */
-  background-color: #4CAF50; /* Green button color */
-  color: #ffffff; /* White button text color */
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+/* Dark mode for index */
+.dark-mode body {
+  background-color: #121212; /* Darker background color */
+  color: #ffffff; /* White text color */
 }
 
-.index-card .btn:hover {
-  background-color: #45a049; /* Darker green on hover */
-  color: #ffffff; /* Maintain white text on hover */
+.dark-mode .hero {
+  background-color: #333333; /* Darker hero background color in dark mode */
 }
 
-/* Footer styles */
-footer {
-  background-color: #333333; /* Darker footer background color */
-  padding: 20px 0;
-  text-align: center;
+.dark-mode nav ul li a {
+  color: #ffffff;
 }
 
-footer p {
-  margin: 0;
-  color: #ffffff; /* White footer text color */
+.dark-mode .bikes {
+  background-color: #121212; /* Darker background color for bike cards in dark mode */
 }
 
-/* Button styles */
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 15px; /* Adjusted margin for better spacing */
-  background-color: #4CAF50; /* Green button color */
-  color: #ffffff; /* White button text color */
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+.dark-mode .bike {
+  background-color: #333333; /* Darker bike card background color in dark mode */
 }
 
-.btn:hover {
-  background-color: #45a049; /* Darker green on hover */
-  color: #ffffff; /* Maintain white text on hover */
+.dark-mode .bike h3 {
+  color: #ffffff; /* White bike title color in dark mode */
 }
 
-/* Contact Information styles */
-.contact-info {
-  padding: 40px 0;
+.dark-mode .bike p {
+  color: #cccccc; /* Lighter text color for bike details in dark mode */
 }
 
-.contact-info h2 {
-  font-size: 1.8em;
+.dark-mode .bike .btn {
+  background-color: #4CAF50; /* Green button color in dark mode */
 }
 
-.contact-info p {
-  font-size: 1.2em;
+.dark-mode .bike .btn:hover {
+  background-color: #45a049; /* Darker green on hover in dark mode */
 }
 
-.contact-info ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.dark-mode .modal-content {
+  background-color: #333333; /* Darker modal content background color in dark mode */
+  color: #ffffff; /* White text color in dark mode */
 }
 
-.contact-info li {
-  margin-bottom: 10px;
+.dark-mode .modal-content strong {
+  color: #4CAF50; /* Green text color for strong elements in dark mode */
 }
 
-/* Contact Form styles */
-.contact-form {
-  padding: 40px 0;
+.dark-mode .modal-content p {
+  color: #cccccc; /* Lighter text color for paragraphs in dark mode */
 }
 
-.contact-form h2 {
-  font-size: 1.8em;
-}
-
-.contact-form p {
-  font-size: 1.2em;
-}
-
-.contact-form form {
-  max-width: 600px; /* Adjusted for larger screens */
-  margin: 0 auto;
-}
-
-.contact-form .form-group {
-  margin-bottom: 20px;
-}
-
-.contact-form label {
-  font-size: 1.2em;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  box-sizing: border-box;
-}
-
-.contact-form button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 15px;
-  text-align: center;
-  background-color: #4CAF50; /* Green button color */
-  color: #ffffff; /* White button text color */
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.contact-form button:hover {
-  background-color: #45a049; /* Darker green on hover */
-}
-
-/* Adjustments for larger screens */
-@media screen and (min-width: 768px) {
-  .container {
-    width: 80%; /* Adjusted for larger screens */
-    margin: 0 auto;
-  }
-
-  .contact-form form {
-    max-width: 700px; /* Further adjusted for larger screens */
-  }
-}
-
-/* Adjustments for extra-large screens */
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 70%; /* Adjusted for extra-large screens */
-    margin: 0 auto;
-  }
-
-  .contact-form form {
-    max-width: 800px; /* Further adjusted for extra-large screens */
-  }
+.dark-mode footer {
+  background-color: #333333; /* Darker footer background color in dark mode */
+  color: #ffffff; /* White footer text color in dark mode */
 }
