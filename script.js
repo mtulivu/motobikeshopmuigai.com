@@ -13,7 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
             const bikeName = this.dataset.bike;
             modalTitle.textContent = bikeName;
             modalContent.innerHTML = getBikeDetails(bikeName);
-            modal.style.display = 'block';
+            
+            // Check if the modal is not already visible
+            if (modal.style.display !== 'block') {
+                modal.style.display = 'block';
+            }
         });
     });
 
@@ -22,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     window.addEventListener('click', function (event) {
+        // Check if the click target is the modal overlay
         if (event.target === modal) {
             modal.style.display = 'none';
         }
