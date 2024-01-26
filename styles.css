@@ -85,6 +85,7 @@ nav ul li a:hover {
   background-color: #333333; /* Darker bike card background color */
   padding: 20px;
   border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
 
 .bike img {
