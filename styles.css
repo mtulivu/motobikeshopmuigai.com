@@ -5,7 +5,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #1f1f1f; /* Dark background color */
+  background: linear-gradient(to bottom, #1f1f1f, #333333); /* Gradient background */
   color: #ffffff; /* White text color */
 }
 
@@ -142,14 +142,6 @@ nav ul li a:hover {
   color: #ffffff; /* White text color */
 }
 
-.modal-content strong {
-  color: #4CAF50; /* Green text color for strong elements */
-}
-
-.modal-content p {
-  color: #cccccc; /* Lighter text color for paragraphs */
-}
-
 .close {
   color: #aaaaaa;
   float: right;
@@ -162,6 +154,22 @@ nav ul li a:hover {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* Index card specific styles */
+.index-card .btn {
+  width: 100%;
+  margin-top: 15px; /* Adjusted margin for better spacing */
+  background-color: #4CAF50; /* Green button color */
+  color: #ffffff; /* White button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.index-card .btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  color: #ffffff; /* Maintain white text on hover */
 }
 
 /* Footer styles */
@@ -289,60 +297,4 @@ footer p {
   .contact-form form {
     max-width: 800px; /* Further adjusted for extra-large screens */
   }
-}
-
-/* Dark mode for index */
-.dark-mode body {
-  background-color: #121212; /* Darker background color */
-  color: #ffffff; /* White text color */
-}
-
-.dark-mode .hero {
-  background-color: #333333; /* Darker hero background color in dark mode */
-}
-
-.dark-mode nav ul li a {
-  color: #ffffff;
-}
-
-.dark-mode .bikes {
-  background-color: #121212; /* Darker background color for bike cards in dark mode */
-}
-
-.dark-mode .bike {
-  background-color: #333333; /* Darker bike card background color in dark mode */
-}
-
-.dark-mode .bike h3 {
-  color: #ffffff; /* White bike title color in dark mode */
-}
-
-.dark-mode .bike p {
-  color: #cccccc; /* Lighter text color for bike details in dark mode */
-}
-
-.dark-mode .bike .btn {
-  background-color: #4CAF50; /* Green button color in dark mode */
-}
-
-.dark-mode .bike .btn:hover {
-  background-color: #45a049; /* Darker green on hover in dark mode */
-}
-
-.dark-mode .modal-content {
-  background-color: #333333; /* Darker modal content background color in dark mode */
-  color: #ffffff; /* White text color in dark mode */
-}
-
-.dark-mode .modal-content strong {
-  color: #4CAF50; /* Green text color for strong elements in dark mode */
-}
-
-.dark-mode .modal-content p {
-  color: #cccccc; /* Lighter text color for paragraphs in dark mode */
-}
-
-.dark-mode footer {
-  background-color: #333333; /* Darker footer background color in dark mode */
-  color: #ffffff; /* White footer text color in dark mode */
 }
