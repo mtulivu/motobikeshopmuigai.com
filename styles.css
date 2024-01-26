@@ -9,6 +9,12 @@ body {
   color: #ffffff; /* White text color */
 }
 
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212; /* Darker background color for dark mode */
+  color: #ffffff; /* White text color for dark mode */
+}
+
 /* Header styles */
 header {
   background-color: #333333; /* Darker header background color */
