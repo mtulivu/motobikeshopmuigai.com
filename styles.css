@@ -139,7 +139,11 @@ nav ul li a:hover {
   border: 1px solid #888;
   width: 80%;
   border-radius: 8px;
-  color: #cccccc; /* Dark gray text color */
+  color: #ffffff; /* White text color */
+}
+
+#modalContent {
+  color: #cccccc; /* Dark gray text color for modal content */
 }
 
 .close {
