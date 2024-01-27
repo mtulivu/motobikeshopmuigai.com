@@ -142,9 +142,10 @@ nav ul li a:hover {
   color: #ffffff; /* White text color */
 }
 
-#modalContent {
+.modal-content #modalContent {
   color: #cccccc; /* Dark gray text color for modal content */
 }
+
 
 .close {
   color: #aaaaaa;
