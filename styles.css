@@ -139,11 +139,11 @@ nav ul li a:hover {
   border: 1px solid #888;
   width: 80%;
   border-radius: 8px;
-  color: #ffffff; /* White text color */
+  color: #333333; /* White text color */
 }
 
 .modal-content #modalContent {
-  color: #333333; /*  text color for modal content */
+  color: #ffffff; /*  text color for modal content */
 }
 
 
