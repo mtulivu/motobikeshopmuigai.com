@@ -65,8 +65,7 @@ nav ul li a:hover {
   }
 
   nav ul li {
-    margin: 10px 0; /* Adjusted margin for better spacing on small screens */
-    display: block; /* Display list items as blocks for full width */
+    margin: 10px 0; /* Adjust margin for better spacing on small screens */
   }
 }
 
