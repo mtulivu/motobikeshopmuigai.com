@@ -117,13 +117,13 @@ header h1 {
 }
 
 .modal-content {
-  background-color: #333333; /* Darker modal content background color */
+  background-color: #000000; /* Change to black */
   margin: 20% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
   border-radius: 8px;
-  color: #333333; /* White text color */
+  color: #ffffff; /* White text color */
 }
 
 .close {
