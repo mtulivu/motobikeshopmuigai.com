@@ -29,6 +29,47 @@ header h1 {
   max-width: 1200px; /* Limit maximum width for larger screens */
 }
 
+/* Navigation styles */
+nav {
+  text-align: center; /* Center the navigation items */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin: 0 15px; /* Add space between list items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #4CAF50;
+}
+
+/* Responsive Navigation */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column; /* Stack list items vertically on small screens */
+    align-items: center; /* Center-align list items */
+  }
+
+  nav ul li {
+    margin: 10px 0; /* Adjusted margin for better spacing on small screens */
+    display: block; /* Display list items as blocks for full width */
+  }
+}
+
 /* Hero section styles */
 .hero {
   background-color: #666666; /* Dark gray hero background color */
