@@ -144,6 +144,7 @@ nav ul li a:hover {
 }
 
 /* Modal styles */
+/* Modal styles */
 .modal {
   display: none;
   position: fixed;
@@ -157,8 +158,8 @@ nav ul li a:hover {
 }
 
 .modal-content {
-  background-color: #000000; /* Change to black */
-  margin: 20% auto;
+  background-color: #000000; /* Black background */
+  margin: 10% auto; /* Adjusted margin for better centering */
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
@@ -179,6 +180,7 @@ nav ul li a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
 
 /* Footer styles */
 footer {
